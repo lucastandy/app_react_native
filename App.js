@@ -14,13 +14,16 @@ export default function App() {
   // Função para calcular IMC
   const calcularBMI = () => {
 
+    // Chamando a função para validar os campos do formulário
+    if(!validade()) return;
+
     // Convertendo para um número float
     const heightFloat = parseFloat(height);
     const weightFloat = parseFloat(weight);
 
     // Verificando se os números são válidos
     if(isNaN(heightFloat) || isNaN(weightFloat) || heightFloat <=0 || weightFloat <=0){
-      Alert.alert('Por favor, insira valores válidos para peso e altura.');
+      Alert.alert('','Erro: Por favor, insira valores válidos para peso e altura.');
       return;
     }
 
@@ -29,6 +32,19 @@ export default function App() {
 
     // Atualizando o estado de um componente
     setBmi("Seu IMC/BMI: " + bmi.toFixed(2));
+  }
+
+  // Função para validar os campos
+  const validade = () => {
+    if(!height){
+      Alert.alert('','Erro: Necessário preencher o campo altura!');
+      return false;
+    }
+    if(!weight){
+      Alert.alert('','Erro: Necessário preencher o campo peso!');
+      return false;
+    }
+    return true;
   }
   
   return (
