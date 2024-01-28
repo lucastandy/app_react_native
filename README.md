@@ -10,6 +10,13 @@ Esta aplicação calcula o Índice de Massa Corporal - IMC. O usuário digita a 
 * Maior que 40,00 => Obesidade Grave.
 
 # Layout da aplicação
+Tela da aplicação:
+
+![Tela da aplicação](https://github.com/lucastandy/app_react_native/blob/main/assets/tela01.jpeg)
+
+Tela da aplicação em teste:
+
+![Tela da aplicação em teste](https://github.com/lucastandy/app_react_native/blob/main/assets/tela02.jpeg)
 
 # Tecnlogias Utilizadas
 
