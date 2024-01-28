@@ -12,11 +12,11 @@ Esta aplicação calcula o Índice de Massa Corporal - IMC. O usuário digita a 
 # Layout da aplicação
 Tela da aplicação:
 
-![Tela da aplicação](https://github.com/lucastandy/app_react_native/blob/main/assets/tela01.jpeg)
+<img src="https://github.com/lucastandy/app_react_native/blob/main/assets/tela01.jpeg" alt="Tela da aplicação" width="300" height="667">
 
 Tela da aplicação em teste:
 
-![Tela da aplicação em teste](https://github.com/lucastandy/app_react_native/blob/main/assets/tela02.jpeg)
+<img src="https://github.com/lucastandy/app_react_native/blob/main/assets/tela02.jpeg" alt="Tela da aplicação em teste" width="300" height="667">
 
 # Tecnlogias Utilizadas
 
