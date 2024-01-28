@@ -13,8 +13,8 @@ export const Logo = styled.View`
 `;
 
 export const ImageLogo = styled.Image`
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 `;
 
 export const InputForm = styled.TextInput`
@@ -58,6 +58,16 @@ export const RowData = styled.View`
 
 `;
 
+export const RowDataSelect = styled.View`
+    background-color: #DBF227;
+    padding: 10px;
+    margin: 5px 20px;
+    border-radius: 6px;
+    flex-direction: row;
+    justify-content: flex-start;
+
+`;
+
 export const Bmi = styled.Text`
     flex: 1;
     flex-direction: column;
@@ -69,4 +79,3 @@ export const Classification = styled.Text`
     justify-content: flex-end;
     color: #8086c5;
 `;
-
